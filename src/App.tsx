@@ -85,7 +85,7 @@ export const App = () => {
 
         <Typography.Text
           tag="p"
-          view="primary-medium"
+          view="primary-large"
           weight="bold"
           style={{ padding: "0 1rem" }}
         >
@@ -99,12 +99,12 @@ export const App = () => {
         >
           <SwiperSlide
             onClick={() => setBackgroundType("0")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={backDefault}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "0",
               })}
@@ -113,12 +113,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("1")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back1}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "1",
               })}
@@ -128,13 +128,13 @@ export const App = () => {
           <SwiperSlide
             onClick={() => setBackgroundType("2")}
             style={{
-              width: "72px",
+              width: "80px",
             }}
           >
             <img
               src={back2}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "2",
               })}
@@ -143,12 +143,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("3")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back3}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "3",
               })}
@@ -157,12 +157,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("4")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back4}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "4",
               })}
@@ -171,12 +171,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("5")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back5}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "5",
               })}
@@ -185,12 +185,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("6")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back6}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "6",
               })}
@@ -199,12 +199,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("7")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back7}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "7",
               })}
@@ -213,12 +213,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("8")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back8}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "8",
               })}
@@ -227,12 +227,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("9")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back9}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "9",
               })}
@@ -240,7 +240,8 @@ export const App = () => {
             />
             <Typography.Text
               tag="p"
-              view="primary-small"
+              view="primary-medium"
+              weight="bold"
               style={{ textAlign: "center", marginBottom: 0 }}
             >
               49₽
@@ -248,12 +249,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setBackgroundType("10")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={back10}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: backgroundType === "10",
               })}
@@ -261,7 +262,8 @@ export const App = () => {
             />
             <Typography.Text
               tag="p"
-              view="primary-small"
+              view="primary-medium"
+              weight="bold"
               style={{ textAlign: "center", marginBottom: 0 }}
             >
               49₽
@@ -273,7 +275,7 @@ export const App = () => {
 
         <Typography.Text
           tag="p"
-          view="primary-medium"
+          view="primary-large"
           weight="bold"
           style={{ padding: "0 1rem" }}
         >
@@ -287,12 +289,12 @@ export const App = () => {
         >
           <SwiperSlide
             onClick={() => setIconType("0")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={iconDefault}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "0",
               })}
@@ -301,12 +303,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("1")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon1}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "1",
               })}
@@ -315,12 +317,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("2")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon2}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "2",
               })}
@@ -329,12 +331,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("3")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon3}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "3",
               })}
@@ -343,12 +345,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("4")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon4}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "4",
               })}
@@ -357,12 +359,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("5")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon5}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "5",
               })}
@@ -371,12 +373,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("6")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon6}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "6",
               })}
@@ -385,12 +387,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("7")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon7}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "7",
               })}
@@ -399,12 +401,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("8")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon8}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "8",
               })}
@@ -413,12 +415,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("9")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon9}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "9",
               })}
@@ -426,7 +428,8 @@ export const App = () => {
             />
             <Typography.Text
               tag="p"
-              view="primary-small"
+              view="primary-medium"
+              weight="bold"
               style={{ textAlign: "center", marginBottom: 0 }}
             >
               49₽
@@ -434,12 +437,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setIconType("10")}
-            style={{ width: "68px" }}
+            style={{ width: "88px" }}
           >
             <img
               src={icon10}
-              width={68}
-              height={68}
+              width={88}
+              height={88}
               className={appSt.iconSlide({
                 selected: iconType === "10",
               })}
@@ -447,7 +450,8 @@ export const App = () => {
             />
             <Typography.Text
               tag="p"
-              view="primary-small"
+              view="primary-medium"
+              weight="bold"
               style={{ textAlign: "center", marginBottom: 0 }}
             >
               49₽
@@ -459,7 +463,7 @@ export const App = () => {
 
         <Typography.Text
           tag="p"
-          view="primary-medium"
+          view="primary-large"
           weight="bold"
           style={{ padding: "0 1rem" }}
         >
@@ -473,12 +477,12 @@ export const App = () => {
         >
           <SwiperSlide
             onClick={() => setFonType("0")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={backDefault}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "0",
               })}
@@ -487,12 +491,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("1")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon1}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "1",
               })}
@@ -502,13 +506,13 @@ export const App = () => {
           <SwiperSlide
             onClick={() => setFonType("2")}
             style={{
-              width: "72px",
+              width: "80px",
             }}
           >
             <img
               src={fon2}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "2",
               })}
@@ -517,12 +521,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("3")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon3}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "3",
               })}
@@ -531,12 +535,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("4")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon4}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "4",
               })}
@@ -545,12 +549,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("5")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon5}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "5",
               })}
@@ -559,12 +563,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("6")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon6}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "6",
               })}
@@ -573,12 +577,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("7")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon7}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "7",
               })}
@@ -587,12 +591,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("8")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon8}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "8",
               })}
@@ -601,12 +605,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("9")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon9}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "9",
               })}
@@ -614,7 +618,8 @@ export const App = () => {
             />
             <Typography.Text
               tag="p"
-              view="primary-small"
+              view="primary-medium"
+              weight="bold"
               style={{ textAlign: "center", marginBottom: 0 }}
             >
               49₽
@@ -622,12 +627,12 @@ export const App = () => {
           </SwiperSlide>
           <SwiperSlide
             onClick={() => setFonType("10")}
-            style={{ width: "72px" }}
+            style={{ width: "80px" }}
           >
             <img
               src={fon10}
-              width={72}
-              height={128}
+              width={80}
+              height={136}
               className={appSt.imageSlide({
                 selected: fonType === "10",
               })}
@@ -635,7 +640,8 @@ export const App = () => {
             />
             <Typography.Text
               tag="p"
-              view="primary-small"
+              view="primary-medium"
+              weight="bold"
               style={{ textAlign: "center", marginBottom: 0 }}
             >
               49₽
