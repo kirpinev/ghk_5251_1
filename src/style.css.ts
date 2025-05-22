@@ -138,7 +138,7 @@ const imageSlide = recipe({
 
 const iconSlide = recipe({
   base: {
-    overflow: "inherit",
+    overflow: "visible",
     border: "2px solid white",
     borderRadius: "30px",
     padding: "1px",
