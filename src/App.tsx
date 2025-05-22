@@ -64,7 +64,7 @@ export const App = () => {
         <Typography.TitleResponsive
           font="system"
           tag="h3"
-          view="small"
+          view="medium"
           className={appSt.productsTitle}
         >
           Приложение в вашем стиле
@@ -72,7 +72,7 @@ export const App = () => {
         <Gap size={8} />
         <Typography.Text
           tag="p"
-          view="primary-medium"
+          view="primary-large"
           style={{ marginBottom: 0, padding: "0 1rem" }}
         >
           Оформите приложение под свой характер, вкус и настроение
@@ -96,7 +96,7 @@ export const App = () => {
         >
           <SwiperSlide
             onClick={() => setBackgroundType("0")}
-            style={{ width: "80px" }}
+            style={{ width: "80px", marginLeft: "16px" }}
           >
             <img
               src={backDefault}
@@ -272,7 +272,7 @@ export const App = () => {
         >
           <SwiperSlide
             onClick={() => setIconType("0")}
-            style={{ width: "88px" }}
+            style={{ width: "88px", marginLeft: "16px" }}
           >
             <img
               src={iconDefault}
@@ -446,7 +446,7 @@ export const App = () => {
         >
           <SwiperSlide
             onClick={() => setFonType("0")}
-            style={{ width: "80px" }}
+            style={{ width: "80px", marginLeft: "16px" }}
           >
             <img
               src={backDefault}
