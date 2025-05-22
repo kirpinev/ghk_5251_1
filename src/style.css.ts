@@ -138,6 +138,7 @@ const imageSlide = recipe({
 
 const iconSlide = recipe({
   base: {
+    overflow: "inherit",
     border: "2px solid white",
     borderRadius: "10px",
     padding: "1px",
