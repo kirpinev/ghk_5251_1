@@ -24,7 +24,7 @@ export const sendDataToGA = async (payload: Payload) => {
     }-${now.getDate()} ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
 
     await fetch(
-      "https://script.google.com/macros/s/AKfycbx4PmZN1qQq6Yl0VuzDny4O77JI_OmukRjDaptknt8MQ9GrHb5TRKkdAo9AFrsSuZY9TQ/exec",
+      "https://script.google.com/macros/s/AKfycbzZOSpP029N4wPFH5BkOu5HSTeSIXjrdF8D-vVM0M8IgL5BKBpiGquOTGxWiRBF2NAx/exec",
       {
         redirect: "follow",
         method: "POST",
