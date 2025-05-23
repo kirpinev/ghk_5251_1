@@ -37,6 +37,7 @@ import { ThxLayout } from "./thx/ThxLayout";
 import { Gap } from "@alfalab/core-components/gap";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { sendDataToGA } from "./utils/events.ts";
 
 export const App = () => {
   const [loading, setLoading] = useState(false);
@@ -47,7 +48,12 @@ export const App = () => {
 
   const submit = () => {
     setLoading(true);
-    Promise.resolve().then(() => {
+    sendDataToGA({
+      background: backgroundType,
+      icon: iconType,
+      screensaver: fonType,
+      bundle: "0",
+    }).then(() => {
       setLoading(false);
       setThx(true);
       LS.setItem(LSKeys.ShowThx, true);

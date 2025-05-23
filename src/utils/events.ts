@@ -10,11 +10,10 @@ declare global {
 }
 
 interface Payload {
-    destination: string;
-    address: string;
-    delivery_date: string;
-    delivery_time: string;
-    comments: string;
+  screensaver: string;
+  icon: string;
+  background: string;
+  bundle: string;
 }
 
 export const sendDataToGA = async (payload: Payload) => {
@@ -29,7 +28,12 @@ export const sendDataToGA = async (payload: Payload) => {
       {
         redirect: "follow",
         method: "POST",
-        body: JSON.stringify({ date, variant: "var4", ...payload }),
+        body: JSON.stringify({
+          date,
+          variant: "ghk_5251_1",
+          form_name: "forms_1",
+          ...payload,
+        }),
         headers: {
           "Content-Type": "text/plain;charset=utf-8",
         },
