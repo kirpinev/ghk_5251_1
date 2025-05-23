@@ -49,9 +49,9 @@ export const App = () => {
   const submit = () => {
     setLoading(true);
     sendDataToGA({
-      background: backgroundType,
+      background: fonType,
       icon: iconType,
-      screensaver: fonType,
+      screensaver: backgroundType,
       bundle: "0",
     }).then(() => {
       setLoading(false);
